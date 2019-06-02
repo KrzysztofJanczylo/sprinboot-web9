@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Wordl</title>
+</head>
+<body>
+Hello Białystok
+<form action="myButtonClick" method="POST" >
+<input id="kliknij" name="klik" type="submit" value="Kliknij"/>
+</form>
+
+<div th:if="${przyciskKliknieto != null}">
+    Klikałeś!
+
+</div>
+</body>
+</html>

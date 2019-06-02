@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>zad9</title>
+</head>
+<body>
+
+<form  >
+    <input type="text" name="text"/>
+    <input type="submit" name="but" value="Wyślij"/>
+
+    <div th:if="${text != null}">
+    Wpisałeś <span th:text="${text}"></span>
+    </div>
+
+</form>
+
+</body>
+</html>
